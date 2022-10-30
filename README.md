@@ -1,6 +1,11 @@
 # Human Obstacle Detection and Tracking
+<<<<<<< HEAD
 [![Build Status](https://app.travis-ci.com/spauly98/ENPM808X_Midterm_project.svg?branch=phase2)](https://app.travis-ci.com/github/bharadwaj-chukkala/ENPM808X_Midterm_project)
 [![Coverage Status](https://coveralls.io/repos/github/spauly98/ENPM808X_Midterm_project/badge.svg?branch=phase2)](https://coveralls.io/github/spauly98/ENPM808X_Midterm_project?branch=phase2)
+=======
+[![Build Status](https://app.travis-ci.com/bharadwaj-chukkala/ENPM808X_Midterm_project.svg?branch=phase1)](https://app.travis-ci.com/github/bharadwaj-chukkala/ENPM808X_Midterm_project)
+[![Coverage Status](https://coveralls.io/repos/github/spauly98/ENPM808X_Midterm_project/badge.svg?branch=phase1)](https://coveralls.io/github/spauly98/ENPM808X_Midterm_project?branch=phase1)
+>>>>>>> master
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ---
 
@@ -18,12 +23,19 @@ The Software Product will consist of 4 modules which will take a continuous vide
   - Classifier Module works using an SVM Model, To train the model we generate a Histogram of Gradients for the given dataser. The generated feature vectors will be used to train the SVM Classifier. The Classifier will detect the location of the feature (Human) in the input frames with an error bound. The Output Error will be calculated between the ground truth and the classified output and it will be iterated through and through to minimize error and improve feature detection accuracy. After the desired accuracy is being reached, the Classifer Module will help the Human Detector Module to draw bounding boxes as it keeps classifying the human in the input.
   - Human Detector Module will detect the person in the input as frames are extracted, it will draw bounding boxes as identification of the detected person from the classifier output and return the bounding box output data for each frame continuously.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 <p align="center"> 
   <img width="500" height="300" src="https://user-images.githubusercontent.com/106445479/198857946-d84752f5-9db8-45dc-8b48-200fb6bf2f12.jpg">
 </p>
 <h4 align="center">Advanced AGV with Perception capabilities</h1>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 ---
 ## License
 MIT License
@@ -108,6 +120,7 @@ The Members are Graduate students at The University of Maryland, College Park. T
 - Developer-level documentation.
 ---
 
+<<<<<<< HEAD
 
 ## Results
 ### Image Result
@@ -138,6 +151,13 @@ Agile Iterative Development Process will be used to develop the software along T
 sudo apt-get install -y -qq lcov
 ```
 
+=======
+## Results
+### Image Result
+
+### Video Result
+---
+>>>>>>> master
 ## Development Aspects
 Agile Iterative Development Process will be used to develop the software along Test-Driven Development.
 
@@ -240,9 +260,9 @@ cd ..
 doxygen doxygen.config
 doxywizard
 ```
-
 ---
 ## Project Videos
+<<<<<<< HEAD
 ### [Final Video](https://drive.google.com/drive/folders/1NprRueNb3u7tsn6D-Y5_eI7PGIxM4owS?usp=share_link)
 Note: The Microphone had some issue, apologies beforehand
 ### [Sprint 1 Video](https://drive.google.com/file/d/1hh5f50VzA4mIPJmc9IJAOi4N9bs-uyPp/view?usp=sharing)
@@ -250,3 +270,8 @@ Note: The Microphone had some issue, apologies beforehand
 ### [Proposal Video](https://drive.google.com/file/d/1BUSOc8T6gLknhAt8TJ6uW9MLCY49dpPH/view?usp=sharing)
 
 
+=======
+### [Sprint 1 Video](https://drive.google.com/file/d/1hh5f50VzA4mIPJmc9IJAOi4N9bs-uyPp/view?usp=sharing)
+Note: The Microphone had some issue, apologies beforehand,
+### [Proposal Video](https://drive.google.com/file/d/1BUSOc8T6gLknhAt8TJ6uW9MLCY49dpPH/view?usp=sharing)
+>>>>>>> master
